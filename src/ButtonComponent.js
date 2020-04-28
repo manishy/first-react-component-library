@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import './DemoComponent.css';
+import './ButtonComponent.css';
 import logo from './logo.png';
 
-class DemoComponent extends Component {
+class ButtonComponent extends Component {
   constructor(props) {
     super(props);
   }
@@ -22,8 +22,8 @@ class DemoComponent extends Component {
   }
 }
 
-DemoComponent.propTypes = {
+ButtonComponent.propTypes = {
   onClick: PropTypes.func.isRequired
 };
 
-export default DemoComponent;
+export default ButtonComponent;
