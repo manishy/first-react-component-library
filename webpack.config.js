@@ -1,9 +1,10 @@
+// @ts-ignore
 const path = require('path');
 const pkg = require('./package.json');
 const nodeExternals = require('webpack-node-externals');
 
 module.exports = {
-    entry: "./src/ButtonComponent.js",
+    entry: "./src/index.js",
     output: {
       path: path.resolve(__dirname, 'dist'),
       filename: "main.js",
@@ -19,6 +20,12 @@ module.exports = {
             loader: "babel-loader"
           }
         },
+          {
+              test: /\.(tsx|ts)$/,
+              exclude: /node_modules/,
+              loader: "ts-loader",
+              options: { allowTsInNodeModules: true }
+          },
         {
           test: /\.css$/i,
           use: ["style-loader", "css-loader"]
@@ -33,6 +40,9 @@ module.exports = {
           }
         }
       ]
+    },
+    resolve: {
+        extensions: [".tsx", ".ts", ".js",".jsx"]
     },
     target: 'node',
     externals: [nodeExternals()]
