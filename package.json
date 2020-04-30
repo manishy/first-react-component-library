@@ -1,7 +1,7 @@
 {
-  "name": "button-component",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@inmanishy/button-component",
+  "version": "0.0.1",
+  "description": "First npm package",
   "main": "dist/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/manishy/first-react-component-library.git"
   },
-  "author": "",
+  "author": "manishy",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/manishy/first-react-component-library.git/issues"
@@ -41,5 +41,9 @@
   },
   "dependencies": {
     "@types/react": "16.9.34"
-  }
+  },
+  "keywords": [
+    "[\"Button\"",
+    "\"Button-component\"]"
+  ]
 }

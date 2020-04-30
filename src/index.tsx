@@ -1,5 +1,3 @@
 import ButtonComponent from './ButtonComponent'
 
-export default {
-    ButtonComponent
-};
+export default ButtonComponent;
