@@ -1,5 +1,5 @@
 {
-  "name": "@inmanishy/button-component",
+  "name": "button-component",
   "version": "0.0.2",
   "description": "First npm package",
   "main": "dist/main.js",

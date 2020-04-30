@@ -1,0 +1,27 @@
+{
+  "name": "@inmanishy/button-component",
+  "version": "0.0.4",
+  "description": "Just learning how to publish npm packages",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "npm test",
+    "build": "webpack --mode production --display-modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manishy/first-react-component-library.git"
+  },
+  "keywords": [
+    "[\"Button\"",
+    "\"Pretty-cool-button\"]"
+  ],
+  "author": "manishy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manishy/first-react-component-library/issues"
+  },
+  "homepage": "https://github.com/manishy/first-react-component-library#readme",
+  "devDependencies": {
+    "webpack-cli": "3.3.11"
+  }
+}
