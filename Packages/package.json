@@ -1,8 +1,8 @@
 {
   "name": "@inmanishy/button-component",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Just learning how to publish npm packages",
-  "main": "dist/main.js",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "npm test",
     "build": "webpack --mode production --display-modules"
